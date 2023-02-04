@@ -1,0 +1,455 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -50px 0px;
+
+}
+
+.list ul li {
+    display: inline;
+
+}
+
+.list a {
+    color: rgb(120, 125, 125);
+    text-decoration: none;
+    font-size: large;
+    margin-left: 20px;
+}
+
+ul li a:hover {
+    color: rgb(0, 234, 255);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    justify-content: space-around;
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    left: 1px;
+    display: none;
+    width: max-content;
+    cursor: pointer;
+}
+
+.dropdown-content ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-content a {
+    color: gray;
+    line-height: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.screen h1 {
+    color: #00B3B1;
+    font-size: large;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+
+}
+
+.col-2 {
+    padding: 20px;
+
+}
+
+.container {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box1 {
+    background-color: #1AD1B9;
+    color: white;
+    border-radius: 10px;
+    width: 32%;
+}
+
+.box1 h1 {
+    margin-left: 50px;
+}
+
+.box1 img {
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+
+.box1 form {
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+.box1 select{
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    font-size: large;
+}
+.box1 select option {
+    color:black;
+}
+
+.box1 h2 {
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.box2 {
+    background-color: rgb(45, 75, 145);
+    color: white;
+    border-radius: 10px;
+    width: 32%;
+}
+
+.box2 select{
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    font-size: large;
+}
+
+.box2 select option {
+    color: black;
+}
+.box2 img {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.box2 form {
+    margin-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+.box2 h2 {
+    padding: 50px;
+    padding-top: 10px;
+
+}
+
+.box2 h1 {
+    margin-left: 50px;
+}
+
+.box3 {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 32%;
+}
+.box3 select {
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    font-size: large;
+}
+
+.box3 select option {
+    color: black;
+}
+.box3 h1 {
+    margin-left: 50px;
+
+}
+
+.box3 img {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.box3 h2 {
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.box3 form {
+    margin-left: 50px;
+    padding-bottom: 18px;
+}
+
+
+
+.bloc h1 {
+    color: rgb(76, 196, 170);
+    padding-top: 50px;
+
+
+}
+
+ul li {
+    display: inline;
+}
+
+ul li img {
+    color: gray;
+    text-decoration: none;
+    font-size: large;
+    justify-content: space-between;
+    margin-left: 80px;
+    padding-left: 60px;
+
+}
+
+ul li img:hover {
+    color: aqua;
+}
+
+.bloc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+.bloc h1{
+    padding-bottom: 80px;
+    color: #00B3B5;
+}
+.logo{
+    flex: 2;
+}
+
+.status {
+    background-color: #DBF7F6;
+    display: flex;
+    height: 80vh;
+}
+
+.col {
+    margin-left: 20px;
+    display: inline-block;
+    flex: 1;
+    overflow: hidden;
+}
+
+.col img {
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+.col h1 {
+    color: #00B39B;
+    padding-top: 50px;
+}
+
+.col p {
+    color: gray;
+    padding-top: 30px;
+}
+
+.leader {
+    background-color: white;
+    border-radius: 10px;
+    width: 16em;
+}
+
+.move{
+    position: relative;
+    top: 15px;
+}
+
+.imag1 img {
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.leader h3 {
+    color: #4AB39B;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.leader1 p {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.imag2 img {
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.appointments p {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.imag3 img {
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.patients p {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.imag4 img {
+    margin-left: 100px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.doctors p {
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.status_item {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding-top: 30px;
+}
+
+.leader {
+    margin: 20px;
+}
+
+.state h1 {
+    color: #52B39B;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.state p {
+    color: gray;
+    width: 30em;
+    text-align: center;
+    margin-left: 500px;
+    padding-bottom: 40px;
+}
+
+.offices_slider {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.office_desc {
+    color: gray;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    font-size: larger;
+
+}
+.office:hover{
+box-shadow: 25px 5px 60px rgb(198, 198, 198);
+}
+
+
+.small {
+    color: white;
+    background-color: #1662C6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.join-us_section {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.join-us {
+    color: #333333;
+    font-size: small;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background-color: #1662C6;
+    border-radius: 5px;
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-footer {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.section_inner p {
+    color: gray;
+}
+
+.section_inner {
+    text-align: center;
+}
